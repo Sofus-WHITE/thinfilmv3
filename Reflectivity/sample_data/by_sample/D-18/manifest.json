@@ -1,0 +1,137 @@
+{
+  "sample_name": "D-18",
+  "surface": "mixed",
+  "substrate": "mixed",
+  "sputtering_entries": [
+    {
+      "source": "all sputtering.docx",
+      "paragraph_index": 28,
+      "date": "2025-06-12",
+      "text": "12.06.25, D-18\nAg: 200W (210W), T2, P=7.4*10^-3 mbar, reflected power=3W,24 sccm, CL = 531, CT = 984, 12 min.\nTiO2: 200W(207W), T3, P=3.6*10^-3 mbar, reflected power=5W,12 sccm, CL = 418, CT = 974, 25 min 32s.",
+      "sample_names_in_entry": [
+        "D-18"
+      ]
+    }
+  ],
+  "spectra": [
+    {
+      "source_system": "Sofus TwoDetectors",
+      "source_folder": "Sofus - TwoDetectors 19. juni 2025 11_59 Romance Daylight Time",
+      "sample_table": "Sofus - TwoDetectors 19. juni 2025 11_59 Romance Daylight Time/Sample Table.csv",
+      "instrument_sample_id": "Sample193",
+      "description": "Ag 120 nm TiO2 140 nm on Si (D-18)",
+      "csv_path": "Sofus - TwoDetectors 19. juni 2025 11_59 Romance Daylight Time/Sample193.Sample.Raw.csv",
+      "sp_path": "",
+      "surface": "smooth",
+      "substrate": "Silicon",
+      "measurement_angle_deg": "",
+      "measurement_angle_note": "",
+      "measurement_width_mm": "",
+      "measurement_length_mm": "",
+      "illuminant": "",
+      "std_observer_deg": "",
+      "instrument": "",
+      "instrument_software": "",
+      "accessory": "",
+      "detector": "",
+      "created_at_raw": "",
+      "method_guid": "{A66F80D2-9E20-4119-B005-6A9DE63CD389}",
+      "task_id": "576",
+      "metadata_source": "Sofus - TwoDetectors 19. juni 2025 11_59 Romance Daylight Time/Info.txt",
+      "measurement_uid": "c22763fc05"
+    },
+    {
+      "source_system": "Sofus TwoDetectors",
+      "source_folder": "Sofus - TwoDetectors 19. juni 2025 11_59 Romance Daylight Time",
+      "sample_table": "Sofus - TwoDetectors 19. juni 2025 11_59 Romance Daylight Time/Sample Table.csv",
+      "instrument_sample_id": "Sample194",
+      "description": "Ag 120 nm TiO2 140 nm on Si rough (D-18)",
+      "csv_path": "Sofus - TwoDetectors 19. juni 2025 11_59 Romance Daylight Time/Sample194.Sample.Raw.csv",
+      "sp_path": "",
+      "surface": "rough",
+      "substrate": "Silicon",
+      "measurement_angle_deg": "",
+      "measurement_angle_note": "",
+      "measurement_width_mm": "",
+      "measurement_length_mm": "",
+      "illuminant": "",
+      "std_observer_deg": "",
+      "instrument": "",
+      "instrument_software": "",
+      "accessory": "",
+      "detector": "",
+      "created_at_raw": "",
+      "method_guid": "{A66F80D2-9E20-4119-B005-6A9DE63CD389}",
+      "task_id": "576",
+      "metadata_source": "Sofus - TwoDetectors 19. juni 2025 11_59 Romance Daylight Time/Info.txt",
+      "measurement_uid": "c7cdf156fe"
+    }
+  ],
+  "colors": [],
+  "surface_values_observed": [
+    "rough",
+    "smooth"
+  ],
+  "substrate_values_observed": [
+    "Glass",
+    "Silicon"
+  ],
+  "thickness_estimates": [
+    {
+      "sample_name": "D-18",
+      "material": "Ag",
+      "layer_order": "",
+      "time_min": "",
+      "thickness_nm_estimate": 120.0,
+      "thickness_nm_uncertainty": 10.0,
+      "rate_nm_per_min": "",
+      "method": "direct_reflectance_description_or_experiment_pdf",
+      "measurement_method": "direct_nominal_or_pdf",
+      "confidence": "high",
+      "source": "Sofus - TwoDetectors 19. juni 2025 11_59 Romance Daylight Time/Sample Table.csv",
+      "notes": "6 direct source(s); examples: Ag 120 nm TiO2 140 nm on Si (D-18) | Ag 120 nm TiO2 140 nm on Si rough (D-18)"
+    },
+    {
+      "sample_name": "D-18",
+      "material": "TiO2",
+      "layer_order": "",
+      "time_min": "",
+      "thickness_nm_estimate": 120.0,
+      "thickness_nm_uncertainty": 37.90688351977538,
+      "rate_nm_per_min": "",
+      "method": "direct_reflectance_description_or_experiment_pdf",
+      "measurement_method": "direct_nominal_or_pdf",
+      "confidence": "high",
+      "source": "Sofus - TwoDetectors 19. juni 2025 11_59 Romance Daylight Time/Sample Table.csv",
+      "notes": "12 direct source(s); examples: Ag 120 nm TiO2 140 nm on Si (D-18) | Ag 120 nm TiO2 140 nm on Si (D-18)"
+    },
+    {
+      "sample_name": "D-18",
+      "material": "Ag",
+      "layer_order": 1,
+      "time_min": 12.0,
+      "thickness_nm_estimate": 102.0,
+      "thickness_nm_uncertainty": 18.36,
+      "rate_nm_per_min": 8.5,
+      "method": "sputtering_time_times_calibrated_rate",
+      "measurement_method": "curated_rate_table",
+      "confidence": "low",
+      "source": "Thickness/sputtering_rate_direct_numbers.csv",
+      "notes": "rate_source=curated_sputtering_rate_direct_numbers; target=T2; pressure=7.4e-3; sccm=24.0; calibration_sample=; calibration_date=; series_or_period=Early D-series before Ag target change; error_estimate_nm_min=2.5; preferred_use=; basis=S-11 single-layer gives 7.1 +/- 0.7 nm/min but conflicts with expected ~10 nm/min and multilayer back-fit."
+    },
+    {
+      "sample_name": "D-18",
+      "material": "TiO2",
+      "layer_order": 2,
+      "time_min": 25.533333333333335,
+      "thickness_nm_estimate": 137.88000000000002,
+      "thickness_nm_uncertainty": 11.030400000000002,
+      "rate_nm_per_min": 5.4,
+      "method": "sputtering_time_times_calibrated_rate",
+      "measurement_method": "curated_rate_table",
+      "confidence": "medium",
+      "source": "Thickness/sputtering_rate_direct_numbers.csv",
+      "notes": "rate_source=curated_sputtering_rate_direct_numbers; target=T3; pressure=3.6e-3; sccm=12.0; calibration_sample=; calibration_date=; series_or_period=Early D-series before Ag target change; error_estimate_nm_min=0.3; preferred_use=; basis=Old single-layer TiO2 calibration rows; grouped through-origin fit."
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "sample_name": "S-11",
+  "surface": "mixed",
+  "substrate": "mixed",
+  "sputtering_entries": [
+    {
+      "source": "all sputtering.docx",
+      "paragraph_index": 15,
+      "date": "2025-04-10",
+      "text": "10.04.25, S-11\nAg: 200W(210W), T2, P=7.1*10^-3 mbar, reflected power=0W,24 sccm, CL = 532, CT = 989, 12 min.",
+      "sample_names_in_entry": [
+        "S-11"
+      ]
+    }
+  ],
+  "spectra": [
+    {
+      "source_system": "Sofus TwoDetectors",
+      "source_folder": "Sofus - TwoDetectors 29. april 2025 10_28 Romance Daylight Time",
+      "sample_table": "Sofus - TwoDetectors 29. april 2025 10_28 Romance Daylight Time/Sample Table.csv",
+      "instrument_sample_id": "Sample125",
+      "description": "Ag 120 nm on Si (S-11)_1",
+      "csv_path": "Sofus - TwoDetectors 29. april 2025 10_28 Romance Daylight Time/Sample125.Sample.Raw.csv",
+      "sp_path": "",
+      "surface": "smooth",
+      "substrate": "Silicon",
+      "measurement_angle_deg": "",
+      "measurement_angle_note": "",
+      "measurement_width_mm": "",
+      "measurement_length_mm": "",
+      "illuminant": "",
+      "std_observer_deg": "",
+      "instrument": "",
+      "instrument_software": "",
+      "accessory": "",
+      "detector": "",
+      "created_at_raw": "",
+      "method_guid": "{A66F80D2-9E20-4119-B005-6A9DE63CD389}",
+      "task_id": "559",
+      "metadata_source": "Sofus - TwoDetectors 29. april 2025 10_28 Romance Daylight Time/Info.txt",
+      "measurement_uid": "b1e736b180"
+    },
+    {
+      "source_system": "Sofus TwoDetectors",
+      "source_folder": "Sofus - TwoDetectors 29. april 2025 10_28 Romance Daylight Time",
+      "sample_table": "Sofus - TwoDetectors 29. april 2025 10_28 Romance Daylight Time/Sample Table.csv",
+      "instrument_sample_id": "Sample126",
+      "description": "Ag 120 nm on Si rough (S-11)_1",
+      "csv_path": "Sofus - TwoDetectors 29. april 2025 10_28 Romance Daylight Time/Sample126.Sample.Raw.csv",
+      "sp_path": "",
+      "surface": "rough",
+      "substrate": "Silicon",
+      "measurement_angle_deg": "",
+      "measurement_angle_note": "",
+      "measurement_width_mm": "",
+      "measurement_length_mm": "",
+      "illuminant": "",
+      "std_observer_deg": "",
+      "instrument": "",
+      "instrument_software": "",
+      "accessory": "",
+      "detector": "",
+      "created_at_raw": "",
+      "method_guid": "{A66F80D2-9E20-4119-B005-6A9DE63CD389}",
+      "task_id": "559",
+      "metadata_source": "Sofus - TwoDetectors 29. april 2025 10_28 Romance Daylight Time/Info.txt",
+      "measurement_uid": "716cb56b3c"
+    }
+  ],
+  "colors": [],
+  "surface_values_observed": [
+    "rough",
+    "smooth"
+  ],
+  "substrate_values_observed": [
+    "Silicon",
+    "Titanium"
+  ],
+  "thickness_estimates": [
+    {
+      "sample_name": "S-11",
+      "material": "Ag",
+      "layer_order": "",
+      "time_min": "",
+      "thickness_nm_estimate": 120.0,
+      "thickness_nm_uncertainty": 10.0,
+      "rate_nm_per_min": "",
+      "method": "direct_reflectance_description_or_experiment_pdf",
+      "measurement_method": "direct_nominal_or_pdf",
+      "confidence": "high",
+      "source": "Experiments/331479693_4b13bb32f12343c1aebca2e55a8e1a31-250526-1515-5388.pdf; Sofus - TwoDetectors 29. april 2025 10_28 Romance Daylight Time/Sample Table.csv; Sofus - TwoDetectors 29. april 2025 10_28 Romance Daylight Time01/Sample Table.csv",
+      "notes": "9 direct source(s); examples: Ag 120 nm on Si (S-11)_1 | Ag 120 nm on Si rough (S-11)_1"
+    },
+    {
+      "sample_name": "S-11",
+      "material": "Ag",
+      "layer_order": 1,
+      "time_min": 12.0,
+      "thickness_nm_estimate": 120.0,
+      "thickness_nm_uncertainty": 10.0,
+      "rate_nm_per_min": 10.0,
+      "method": "sputtering_time_times_calibrated_rate",
+      "measurement_method": "nominal_or_pdf",
+      "confidence": "medium",
+      "source": "Sofus - TwoDetectors 29. april 2025 10_28 Romance Daylight Time/Sample Table.csv",
+      "notes": "rate_source=nominal_description_or_pdf_matched_to_sputtering_time; target=T2; pressure=7.1e-3; sccm=24.0; calibration_sample=S-11; calibration_date=2025-04-10; derived from 9 direct thickness record(s)"
+    }
+  ]
+}

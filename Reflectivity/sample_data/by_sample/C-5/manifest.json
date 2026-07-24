@@ -1,0 +1,111 @@
+{
+  "sample_name": "C-5",
+  "surface": "smooth",
+  "substrate": "Silicon",
+  "sputtering_entries": [
+    {
+      "source": "all sputtering.docx",
+      "paragraph_index": 69,
+      "date": "2026-01-23",
+      "text": "23.01.26, C-5\nSiO2: 200W (210W), T2, P=8.0*10^-3 mbar, reflected power=0W,24 sccm, CL = 535, CT = 981, 70 min.",
+      "sample_names_in_entry": [
+        "C-5"
+      ]
+    }
+  ],
+  "spectra": [
+    {
+      "source_system": "Sofus TwoDetectors",
+      "source_folder": "Sofus - TwoDetectors 26. februar 2026 13_51 Romance Standard Time",
+      "sample_table": "Sofus - TwoDetectors 26. februar 2026 13_51 Romance Standard Time/Sample Table.csv",
+      "instrument_sample_id": "Sample275",
+      "description": "SiO2 70min (C-5)",
+      "csv_path": "Sofus - TwoDetectors 26. februar 2026 13_51 Romance Standard Time/Sample275.Sample.Raw.csv",
+      "sp_path": "Sofus - TwoDetectors 26. februar 2026 13_51 Romance Standard Time/Sample275.Sample.Raw.sp",
+      "surface": "smooth",
+      "substrate": "Silicon",
+      "measurement_angle_deg": "",
+      "measurement_angle_note": "Integrating sphere/downward-view reflectance; no simple incidence angle found in exported metadata",
+      "measurement_width_mm": "",
+      "measurement_length_mm": "",
+      "illuminant": "",
+      "std_observer_deg": "",
+      "instrument": "",
+      "instrument_software": "PerkinElmer UV WinLab 6.3.2.0749 / 1.61.00 Lambda 900",
+      "accessory": "150mm sphere / downward view",
+      "detector": "UV/VIS",
+      "created_at_raw": "thu feb 26 14:59:29 2026 Romance Standard Time (GMT+1:00)",
+      "method_guid": "{A66F80D2-9E20-4119-B005-6A9DE63CD389}",
+      "task_id": "595",
+      "metadata_source": "Sofus - TwoDetectors 26. februar 2026 13_51 Romance Standard Time/Sample275.Sample.Raw.sp",
+      "measurement_uid": "e3d324b07c"
+    }
+  ],
+  "colors": [
+    {
+      "source_file": "26032710358/第3部分/色度结果表.xlsx",
+      "instrument_sample_id": "#51",
+      "Colour Analysis": " ",
+      "描述": " ",
+      "Tristim X": 17.06,
+      "Tristim Y": 17.52,
+      "Tristim Z": 41.57,
+      "xvalue": 0.2241,
+      "yvalue": 0.2301,
+      "L*": 48.91,
+      "a*": 2.28,
+      "b*": -33.18,
+      "Cab*": 33.26,
+      "Hab*": 273.94,
+      "K Part 1": 0,
+      "K": 0.02395,
+      "X part 1": 0,
+      "X part 1_1": 0,
+      "X_A10": 0,
+      "Equation1_1_1": 0,
+      "X1_C10": 0,
+      "X1_D65_2": 0,
+      "X1_D65_10": 0,
+      "Y1_A2": 0,
+      "Y1_A10": 0,
+      "Y1_C2": 0,
+      "Y1_C10": 0,
+      "Y1_D65_2": 0,
+      "Y1_D65_10": 0,
+      "Z1_A2": 0,
+      "Z1_A10": 0,
+      "Z1_C2": 0,
+      "Z1_C10": 0,
+      "Z1_D65_2": 0,
+      "Z1_D65_10": 0,
+      "worksheet": "结果表",
+      "measurement_number": 51,
+      "surface": "smooth",
+      "substrate": "Silicon",
+      "sample_name": "C-5",
+      "color_uid": "ceb01fad2f"
+    }
+  ],
+  "surface_values_observed": [
+    "smooth"
+  ],
+  "substrate_values_observed": [
+    "Silicon"
+  ],
+  "thickness_estimates": [
+    {
+      "sample_name": "C-5",
+      "material": "SiO2",
+      "layer_order": 1,
+      "time_min": 70.0,
+      "thickness_nm_estimate": 115.5,
+      "thickness_nm_uncertainty": 10.0,
+      "rate_nm_per_min": 1.65,
+      "method": "sputtering_time_times_calibrated_rate",
+      "measurement_method": "curated_rate_table",
+      "confidence": "medium",
+      "source": "Thickness/sputtering_rate_direct_numbers.csv",
+      "notes": "rate_source=curated_sputtering_rate_direct_numbers; target=T2; pressure=8.0e-3; sccm=24.0; calibration_sample=; calibration_date=; series_or_period=Jan-Feb C/A-series; error_estimate_nm_min=0.15; preferred_use=; basis=C-1 to C-4 and later 50 min SiO2 ellipsometer checks."
+    }
+  ]
+}

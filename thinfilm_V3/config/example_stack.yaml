@@ -1,0 +1,13 @@
+incident_medium: air
+substrate: substrate
+angle_deg: 8.0
+wavelength_start_nm: 400.0
+wavelength_stop_nm: 700.0
+wavelength_points: 301
+layers:
+  - material: TiO2
+    thickness_nm: 80.0
+  - material: SiO2
+    thickness_nm: 120.0
+  - material: Ag
+    thickness_nm: 40.0

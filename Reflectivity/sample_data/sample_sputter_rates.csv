@@ -1,0 +1,13 @@
+sample_name,material,rate_nm_per_min,measurement_method,source,confidence,time_min,thickness_nm_estimate
+S-10,TiO2,5.882352941176471,nominal_or_pdf,Sofus - TwoDetectors 29. april 2025 10_28 Romance Daylight Time/Sample Table.csv,medium,17.0,100.0
+S-11,Ag,10.0,nominal_or_pdf,Sofus - TwoDetectors 29. april 2025 10_28 Romance Daylight Time/Sample Table.csv,medium,12.0,120.0
+D-12,Ag,8.5,curated_rate_table,Thickness/sputtering_rate_direct_numbers.csv,low,12.0,102.0
+D-12,TiO2,5.4,curated_rate_table,Thickness/sputtering_rate_direct_numbers.csv,medium,5.5,29.700000000000003
+D-18,Ag,8.5,curated_rate_table,Thickness/sputtering_rate_direct_numbers.csv,low,12.0,102.0
+D-18,TiO2,5.4,curated_rate_table,Thickness/sputtering_rate_direct_numbers.csv,medium,25.53333333333333,137.88000000000002
+B-1,Ag,124.0,curated_rate_table,Thickness/sputtering_rate_direct_numbers.csv,high,0.4833333333333333,59.93333333333334
+B-1,SiO2,2.5,curated_rate_table,Thickness/sputtering_rate_direct_numbers.csv,medium,39.1,97.75
+B-1,TiO2,3.0,curated_rate_table,Thickness/sputtering_rate_direct_numbers.csv,medium,19.1,57.3
+B-2,SiO2,2.5,curated_rate_table,Thickness/sputtering_rate_direct_numbers.csv,medium,25.566666666666663,63.91666666666666
+B-2,TiO2,3.0,curated_rate_table,Thickness/sputtering_rate_direct_numbers.csv,medium,25.4,76.19999999999999
+C-5,SiO2,1.65,curated_rate_table,Thickness/sputtering_rate_direct_numbers.csv,medium,70.0,115.5

@@ -1,0 +1,47 @@
+candidates:
+  - material: Ag
+    url: https://refractiveindex.info/database/data/main/Ag/nk/McPeak.yml
+  - material: Si
+    url: https://refractiveindex.info/database/data/main/Si/nk/Green-2008.yml
+  - material: Si
+    url: https://refractiveindex.info/database/data/main/Si/nk/Aspnes.yml
+  - material: Si
+    url: https://refractiveindex.info/database/data/main/Si/nk/Green-1995.yml
+  - material: Si
+    url: https://refractiveindex.info/database/data/main/Si/nk/Jellison.yml
+  - material: TiO2
+    url: https://refractiveindex.info/database/data/main/TiO2/nk/Jolivet-amorphous.yml
+  - material: TiO2
+    url: https://refractiveindex.info/database/data/main/TiO2/nk/Jolivet-anatase.yml
+  - material: TiO2
+    url: https://refractiveindex.info/database/data/main/TiO2/nk/Kischkat.yml
+  - material: TiO2
+    url: https://refractiveindex.info/database/data/main/TiO2/nk/Sarkar.yml
+  - material: TiO2
+    url: https://refractiveindex.info/database/data/main/TiO2/nk/Zhukovsky.yml
+  - material: TiO2
+    url: https://refractiveindex.info/database/data/main/TiO2/nk/Franta.yml
+  - material: SiO2
+    url: https://refractiveindex.info/database/data/main/SiO2/nk/Franta-25C.yml
+  - material: SiO2
+    url: https://refractiveindex.info/database/data/main/SiO2/nk/Gao.yml
+  - material: SiO2
+    url: https://refractiveindex.info/database/data/main/SiO2/nk/Lemarchand.yml
+  - material: SiO2
+    url: https://refractiveindex.info/database/data/main/SiO2/nk/Rodriguez-de%20Marcos.yml
+  - material: ZrO2
+    url: https://refractiveindex.info/database/data/other/mixed%20crystals/ZrO2-Y2O3/nk/Wood.yml
+  - material: As2S3
+    url: https://refractiveindex.info/database/data/main/As2S3/nk/Synowicki.yml
+  - material: ZrO2
+    url: https://refractiveindex.info/database/data/main/ZrO2/nk/Bodurov.yml
+  - material: Ag
+    url: https://refractiveindex.info/database/data/main/Ag/nk/Ciesielski.yml
+  - material: Ag
+    url: https://refractiveindex.info/database/data/main/Ag/nk/Werner-DFT.yml
+  - material: Ag
+    url: https://refractiveindex.info/database/data/main/Ag/nk/Ferrera-298K.yml
+  - material: Ag
+    url: https://refractiveindex.info/database/data/main/Ag/nk/Wu.yml
+  - material: Ag
+    url: https://refractiveindex.info/database/data/main/Ag/nk/Jiang.yml
